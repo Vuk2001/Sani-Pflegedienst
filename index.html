@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sani Pflegedienst</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<!-- Cookies box -->   
+<div class="wrapper2">
+      <header>
+        <i class="bx bx-cookie"></i>
+        <h2>Cookies Consent</h2>
+      </header>
+      <div class="data">
+        <p>This website use cookies to help you have a superior and more relevant browsing experience on the website.</p>
+      </div>
+      <div class="buttons">
+        <button class="button" id="acceptBtn">Accept</button>
+        <button class="button" id="declineBtn">Decline</button>
+      </div>
+       <div class="links">
+        <a href="#" class="link" id="dateLink">Datenschutz</a>
+        <a href="#" class="link" id="impLink">Impressum</a>
+      </div>
+</div>
+
+
+
+<!-- Navigation and hamburger menu -->
+<nav class="navbar">
+
+<div class="wrapper">
+  <div class="logo">
+    <a href="index.html">
+      <img src="images/nav-logo.svg" alt="Logo">
+    </a>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="#hero-section">Startseite</a>
+    <a href="#about-section">Über uns</a>
+    <a href="#services-section">Leistungen</a>
+    <a href="#carrer-section">Karriere</a>
+    <div class="main_button"><a href="#contact-section">Kontakt</a></div>
+  </div>
+
+  <div class="hamburger" id="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+
+</nav>
+
+
+
+
+<!-- Hero section -->
+<section class="hero-section">
+
+  <!-- Slika kao pozadina -->
+  <div class="hero-bg"></div>
+
+  <!-- Container sa sadržajem -->
+  <div class="hero-content">
+    <h4>Ambulanter Pflegedienst Sani</h4>
+    <h1>Pflege, die Vertrauen schafft Qualität, die berührt</h1>
+    <p>Willkommen bei Sani, Ihrem zuverlässigen Pflegedienst. 
+      Mit Fürsorge, Respekt und liebevoller Unterstützung 
+      begleiten wir Sie im Alltag und bei der medizinischen Betreuung 
+      damit Sie sich sicher und geborgen in Ihrem Zuhause fühlen.</p>
+      <button class="primary-btn" href="#services-section">Zu unseren Leistungen</button>
+  </div>
+
+</section>
+
+
+
+
+<!-- About us section -->
+<section class="about-section" id="about-section">
+
+<div class="about-wrapper">
+
+<img src="images/about_image.png">
+
+<div class="right-side">
+  <h4>Über uns</h4>
+
+  <div class="main-content">
+    <h2>Wir sind ein Zuhause voller Wärme, in dem die Jahre wertvoll sind</h2>
+    <p>Unser ambulanter Pflegedienst bietet fachgerechte Unterstützung und Betreuung direkt bei Ihnen zuhause, stets mit Wärme, Respekt und Vertrauen.<br><br>
+    Unser Team besteht aus qualifizierten, engagierten Pflegekräften, die täglich Sicherheit und ein Lächeln in das Leben der Menschen bringen, die unsere Hilfe benötigen. Unser Ziel ist, dass jeder Patient Würde, Aufmerksamkeit und Geborgenheit in seinem eigenen Zuhause erfährt, während wir uns um seine Gesundheit und täglichen Bedürfnisse kümmern.<br><br>
+    Bei Sani ist jeder Patient mehr als nur ein Kunde – er ist Teil unserer Geschichte und unserer Pflege mit Herz.</p>
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CTA section -->
+<section class="cta-section" id="cta-section">
+
+<div class="cta-wrapper">
+
+  <div class="main-content">
+    <h2>Wir sind für Sie da, kontaktieren Sie uns</h2>
+    <p>Rufen Sie uns an, besuchen Sie uns oder senden Sie uns eine Nachricht. Unser Team steht Ihnen jederzeit zur Verfügung und beantwortet gerne alle Fragen zu Pflegeleistungen, Betreuung und Verfügbarkeit.</p>
+  </div>
+
+  <button class="secondary-btn">Jetzt kontaktieren</button>
+</div>
+
+</section>
+
+
+
+<!-- Services section -->
+<section class="services-section" id="services-section">
+  <div class="services-wrapper">
+
+     <div class="top-content">
+      <h4>Leistungen</h4>
+      <h2>Haben Sie Fragen oder möchten Sie uns erreichen?</h2>
+      <p>Unser herzliches Team steht Ihnen jederzeit zur Verfügung und unterstützt Sie gerne bei allen Fragen rund um die Leistungen von Sani.</p>
+    </div>
+
+    <div class="tabs">
+      <button class="tab-link active" data-tab="grundlagen">Grundlagen der Pflege</button>
+      <button class="tab-link" data-tab="betreuung">Betreuung</button>
+      <button class="tab-link" data-tab="pflegeberatung">Pflegeberatung</button>
+      <button class="tab-link" data-tab="hauswirtschaft">Hauswirtschaft</button>
+      <button class="tab-link" data-tab="grundpflege">Grundpflege</button>
+    </div>
+
+<div id="grundlagen" class="tab-content">
+  <div class="columns">
+    <ul>
+      <li>Blutdruck- und Blutzuckermessung</li>
+      <li>Injektionen: intramuskulär und subkutan</li>
+      <li>Wundversorgung und Verbandswechsel</li>
+      <li>Kompressionsstrümpfe an- und ausziehen</li>
+      <li>Stützende und stabilisierende Verbände anlegen</li>
+      <li>Behandlung eines Dekubitus</li>
+      <li>Absaugen der oberen Luftwege durch Mund und Nase</li>
+      <li>Versorgung von Ernährungssonden bei enteraler Ernährung</li>
+      <li>Richten und Gabe von Medikamenten</li>
+      <li>Portversorgung</li>
+      <li>Inhalation</li>
+      <li>Stomaversorgung</li>
+      <li>Katheter jeglicher Art</li>
+      <li>Spezielle Pflege bei Trachealkanülen</li>
+    </ul>
+    <ul>
+      <li>Anlegen von Infusionen</li>
+      <li>Injektionen: intramuskulär und subkutan</li>
+      <li>Wundversorgung und Verbandswechsel</li>
+      <li>Kompressionsstrümpfe an- und ausziehen</li>
+      <li>Stützende und stabilisierende Verbände anlegen</li>
+      <li>Behandlung eines Dekubitus</li>
+      <li>Richten und Gabe von Medikamenten</li>
+      <li>Portversorgung</li>
+      <li>Inhalation</li>
+      <li>Stomaversorgung</li>
+      <li>Katheter jeglicher Art</li>
+      <li>Spezielle Pflege bei Trachealkanülen</li>
+      <li>Anlegen von Infusionen</li>
+    </ul>
+  </div>
+</div>
+
+    <div id="betreuung" class="tab-content" style="display:none;">
+      <ul>
+        <li>Spaziergänge und gemeinsame Aktivitäten</li>
+        <li>Hilfe bei der Körperpflege und Hygiene</li>
+        <li>Unterstützung beim Toilettengang</li>
+        <li>Zubereitung von Mahlzeiten</li>
+        <li>Hilfe bei der Nahrungsaufnahme</li>
+        <li>Einkaufen, Arztbesuche</li>
+      </ul>
+    </div>
+
+    <div id="pflegeberatung" class="tab-content" style="display:none;">
+      <ul>
+        <li>Beratung zu den Pflegegraden</li>
+        <li>Klärung von Fragen zur Höherstufung und Hilfsmittelbeschaffung</li>
+        <li>Informationen zur Beantragung und Hilfe bei der Antragstellung</li>
+        <li>Hilfreiche Tipps für Ihre persönliche Pflegesituation</li>
+        <li>Beratung hinsichtlich Entlastungsbetrag und Verhinderungspflege</li>
+      </ul>
+    </div>
+
+    <div id="hauswirtschaft" class="tab-content" style="display:none;">
+      <ul>
+        <li>Hauswirtschaftliche Versorgung</li>
+        <li>Unterstützung beim Einkauf</li>
+        <li>Aufräumen und Reinigen der Wohnung</li>
+        <li>Wechseln und Waschen der Wäsche</li>
+        <li>Verhinderungspflege</li>
+        <li>Umfassende Informationen</li>
+        <li>Hilfe bei der Antragstellung</li>
+        <li>Stundenweise Verhinderungspflege</li>
+        <li>Flexible Gestaltungsmöglichkeiten</li>
+      </ul>
+    </div>
+
+    <div id="grundpflege" class="tab-content" style="display:none;">
+      <ul>
+        <li>Körperpflege (Hilfe beim Waschen, Duschen)</li>
+        <li>Hilfe bei Toilettengängen und Inkontinenz</li>
+        <li>Mobilisieren und Aktivieren</li>
+        <li>Zubereiten und ggf. Hilfe beim Essen</li>
+        <li>Lagern und Umbetten</li>
+        <li>Vorbeugende Maßnahmen (Thrombosen, Druckstellenvermeidung, Gelenkversteifung, Lungenentzündung)</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Carriere section -->
+<section class="carrer-section" id="carrer-section">
+
+<div class="carrer-wrapper">
+
+  <div class="top-content">
+    <h4>Karriere</h4>
+    <h2>Gemeinsam den Alltag schöner machen</h2>
+    <p>Werden Sie Teil unseres Teams und bringen Sie mit Ihrem Wissen, Ihrer Fürsorge und Herzlichkeit ein Lächeln in das Leben unserer Kunden.</p>
+  </div>
+
+  <div class="main-content">
+    <img src="/images/carrer_image.png" alt="">
+
+    <div class="boxes-container">
+
+      <div class="carrer-box">
+        <h5>Wir suchen ab sofort eine</h5>
+        <p>Pflegehilfskraft (m/w/d) in Teil - und Vollezeit.</p>
+        <div class="link_button"><a href="mailto:info@sanipd.de">Karriere starten</a></div>
+      </div>
+
+       <div class="carrer-box">
+        <h5>Wir suchen ab sofort eine</h5>
+        <p>Pflegehilfskraft (m/w/d) in Teil - und Vollezeit.</p>
+        <div class="link_button"><a href="mailto:info@sanipd.de">Karriere starten</a></div>
+      </div>
+
+       <div class="carrer-box">
+        <h5>Wir suchen ab sofort eine</h5>
+        <p>Pflegehilfskraft (m/w/d) in Teil - und Vollezeit.</p>
+        <div class="link_button"><a href="mailto:info@sanipd.de">Karriere starten</a></div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Contact section -->
+<section class="contact-section" id="contact-section">
+
+<div class="carrer-wrapper">
+
+  <div class="left-content">
+    <h4>Kontakt</h4>
+    <h2>Haben Sie Fragen oder möchten Sie uns erreichen?</h2>
+    <p>Unser freundliches Team ist jederzeit für Sie da und berät Sie gerne zu allen Leistungen von Sani.</p>
+  </div>
+
+  <div class="boxes-container">
+
+    <div class="contact-box">
+
+      <img src="images/location-icon.svg">
+      <div class="contact-info">
+        <h5>Standort</h5>
+        <a href="https://maps.app.goo.gl/VY8UrbBB86tYnmVK6">Vibeler Landstr. 100<br>
+        60388 Frankfurt am Main</a>
+      </div>
+    
+    </div>  
+
+    <div class="contact-box">
+      
+      <img src="images/email-icon.svg">
+      <div class="contact-info">
+        <h5>Email adresse</h5>
+        <a href="mailto:info@sanipd.de">info@sanipd.de</a>
+      </div>
+    
+    </div>
+    
+    <div class="contact-box">
+      
+      <img src="images/phone-icon.svg">
+      <div class="contact-info">
+        <h5>Telefonnummer</h5>
+        <a href="tel:+49 (0) 6109 9663767">+49 (0) 6109 9663767</a>
+      </div>
+    
+    </div>
+    
+    <div class="contact-box">
+      
+      <img src="images/fax-icon.svg">
+      <div class="contact-info">
+        <h5>Fax</h5>
+        <a href="tel:+49 (0) 6109 9664015">+49 (0) 6109 9664015</a>
+      </div>
+    
+    </div> 
+
+  </div>  
+
+</div>
+
+</section>
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="wrapper">
+      
+      <div class="container">
+      <!-- Lijeva strana -->
+      <div class="left-container">
+        <img src="images/footer-logo.svg">
+        <p>Im Falle einer medizinischen Notlage ist eine unserer Pflegefachkräfte rund um die Uhr (24/7) unter der bekannten Nummer für Sie erreichbar: +49 (0) 6109 9663767</p>
+      </div>
+      
+      <div class="right-container">
+      <!-- Linkovi -->
+      <div class="links-container">
+        <h6>Links</h6>
+        <ul>
+          <li><a href="#hero-section">Startseite</a></li>
+          <li><a href="#about-section">Über uns</a></li>
+          <li><a href="#services-section">Leistungen</a></li>
+          <li><a href="#carrer-section">Karriere</a></li>
+          <li><a href="#contact-section">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <!-- Pravni linkovi -->
+      <div class="links-container">
+        <h6>Rechtliche Links</h6>
+        <ul>
+          <li><a href="datenschultz.html">Datenschutz</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+      </div>
+
+      </div>
+
+      </div>
+    </div>
+
+<!-- Donji deo -->
+<div class="bottom-footer">
+
+  <a href="https://www.icodeads.com/">Erstellt von iCodeAds 2025</a>
+
+</div>
+
+</footer>
+
+
+
+
+
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
