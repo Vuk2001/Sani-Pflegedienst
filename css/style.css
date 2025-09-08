@@ -403,7 +403,7 @@ header h2 {
 
 @media (max-width: 800px) {
   .hero-bg {
-    background-image: url("/images/hero_img_800.png");
+    background-image: url("../images/hero_img_800.png");
     height: 500px;
   }
 }
@@ -1340,3 +1340,70 @@ footer .wrapper .container {
 }
 
 
+
+
+
+/* Impressum page */
+.impressum_top_nav {
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.impressum_top_nav .icon_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 12px;
+  border-radius: 50px;
+  transition: 0.3s;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.impressum_top_nav .icon_container:hover {
+  background-color: #9AC1C6;
+}
+
+.impressum_top_nav .icon_container p {
+  margin: 0 8px 0 0;
+  color: #161616;
+}
+
+.impressum_top_nav .icon img {
+  width: 32px;
+}
+
+body.impressum {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.impressum_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin: 24px 48px 80px 48px;
+  gap: 48px;
+  max-width: 100%;
+  max-width: 1280px;
+}
+
+.impressum_content_wrapper h3 {
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.company_info h2 {
+  font-size: 42px;
+  line-height: 110%;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #4E888F;
+}
+
+.impressum_content_wrapper .legal_notices p {
+  max-width: 850px;
+}
